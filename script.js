@@ -11,43 +11,27 @@ var data = [
   {
     label: "Premio Bronze",
     value: 1,
-  }, // padding
+    question:
+      "Parabéns! Você ganhou um prêmio, dirija-se ao nosso stand para retirá-lo",
+  },
   {
     label: "Premio Prata",
     value: 2,
+    question:
+      "Parabéns! Você ganhou um prêmio, dirija-se ao nosso stand para retirá-lo",
   }, //font-family
   {
-    label: "Premio Bronze",
+    label: "Premio Ouro",
     value: 3,
+    question:
+      "Parabéns! Você ganhou um prêmio, dirija-se ao nosso stand para retirá-lo",
   }, //color
   {
-    label: "Premio Prata",
+    label: "Não foi dessa vez",
     value: 4,
+    question:
+      "Infelizmente não foi dessa vez, mas não fique triste, haverá outros eventos",
   }, //font-weight
-  {
-    label: "Premio Ouro",
-    value: 5,
-  }, //font-size
-  {
-    label: "Premio Bronze",
-    value: 6,
-  }, //background-color
-  {
-    label: "Premio Prata",
-    value: 7,
-  }, //nesting
-  {
-    label: "Premio Bronze",
-    value: 8,
-  }, //bottom
-  {
-    label: "Premio Prata",
-    value: 9,
-  }, //sans-serif
-  {
-    label: "Premio Ouro",
-    value: 10,
-  },
 ];
 var svg = d3
   .select("#chart")
